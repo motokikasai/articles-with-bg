@@ -1,15 +1,33 @@
 :root {
   font-family: "Roboto", sans-serif;
+  border-bo
 }
 
+/* * {
+  box-sizing: border-box;
+} */
+
+html,
 body {
-  padding: 140px;
-  font-size: 1.4rem;
-  color: white;
+  /* padding: 140px; */
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  margin: 0;
 }
 
 a {
+  color: rgb(255, 153, 0);
   text-decoration: none;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: rgb(255, 210, 143);
+}
+
+h1 {
+  color: rgb(51, 51, 51);
+  padding: 12px;
 }
 
 .button {
@@ -24,4 +42,22 @@ a {
 
 .button:hover {
   background: rgb(175, 175, 175);
+}
+
+.bg-1 {
+  background: url("./images/beach-1.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+}
+
+.bg-2 {
+  background: url("./images/beach-2.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+}
+
+.bg-3 {
+  background: url("./images/beach-3.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 20px;
 }
