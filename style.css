@@ -1,5 +1,19 @@
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
   padding: 140px;
-  font-size: 2rem;
+  font-size: 1.4rem;
   color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background: gray;
+  padding: 10px;
+  border-radius: 8px;
 }
