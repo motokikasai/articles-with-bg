@@ -11,7 +11,7 @@ html,
 body {
   /* padding: 140px; */
   font-size: 1.2rem;
-  color: rgb(255, 255, 255);
+  color: gray;
   margin: 0;
 }
 
@@ -31,7 +31,7 @@ h1 {
 }
 
 .button {
-  background: white;
+  background: rgb(65, 65, 65);
   padding: 18px;
   margin-right: 12px;
   margin-bottom: 40px;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .button:hover {
-  background: rgb(175, 175, 175);
+  background: rgb(128, 128, 128);
 }
 
 .bg-1 {
