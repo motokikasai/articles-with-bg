@@ -13,7 +13,15 @@ a {
 }
 
 .button {
-  background: gray;
-  padding: 10px;
-  border-radius: 8px;
+  background: white;
+  padding: 18px;
+  margin-right: 12px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  float: left;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  background: rgb(175, 175, 175);
 }
