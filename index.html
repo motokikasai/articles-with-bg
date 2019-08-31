@@ -12,17 +12,18 @@
     <!-- <style>
       html,
       body {
-        background: url("./images/beach.jpg") no-repeat center center fixed;
+        color: white;
+        /* background: url("./images/beach.jpg") no-repeat center center fixed;
         background-size: cover;
         filter: grayscale(60%);
-        margin: 0;
+        margin: 0; */
       }
     </style> -->
     <link rel="stylesheet" href="./style.css" />
     <title>Practice - Article List</title>
   </head>
   <body>
-    <main>
+    <div>
       <h1>Article List</h1>
 
       <!-- <div>
@@ -35,60 +36,68 @@
         <span class="button"><a href="./article3.html">Article 3</a></span>
       </div> -->
 
-      <article style="clear:both;">
-        <div class="bg-1">
-          <h3><a href="article1.html">Article 1</a></h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-            magnam aut <strong>et quasi</strong> quidem dignissimos aperiam,
-            culpa asperiores eos, similique consectetur eaque necessitatibus
-            reprehenderit exercitationem repudiandae ducimus. Corrupti, id
-            alias.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-            magnam aut et quasi quidem dignissimos aperiam, culpa asperiores
-            eos, similique consectetur eaque necessitatibus reprehenderit
-            exercitationem repudiandae ducimus.
-            <a href="#">Corrupti, id alias</a>.
-          </p>
-        </div>
+      <main style="clear:both;">
+        <section class="bg-1 p-bg-card">
+          <div class="p-bg-color">
+            <h3><a href="article1.html">Article 1</a></h3>
+            <p>
+              Lorem <strong>et quasi</strong> ipsum dolor sit amet consectetur,
+              adipisicing elit. Aspernatur magnam aut
+              <strong>et quasi</strong> quidem dignissimos aperiam, culpa
+              asperiores eos, similique consectetur eaque necessitatibus
+              reprehenderit exercitationem repudiandae ducimus. Corrupti, id
+              alias.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur magnam aut et quasi quidem dignissimos aperiam, culpa
+              asperiores eos, similique consectetur eaque necessitatibus
+              reprehenderit exercitationem repudiandae ducimus.
+              <a href="article1.html">Read more > </a>
+            </p>
+          </div>
+        </section>
 
-        <div class="bg-2">
-          <h3><a href="article2.html">Article 2</a></h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-            magnam aut et quasi quidem dignissimos aperiam, culpa asperiores
-            eos, similique consectetur eaque necessitatibus
-            <strong>et quasi</strong> exercitationem repudiandae ducimus.
-            Corrupti, id alias.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-            magnam aut et quasi quidem dignissimos aperiam, culpa asperiores
-            eos, similique consectetur eaque necessitatibus reprehenderit
-            exercitationem repudiandae ducimus.
-            <a href="#">Corrupti, id alias</a>.
-          </p>
-        </div>
+        <section class="bg-2 p-bg-card">
+          <div class="p-bg-color">
+            <h3><a href="article2.html">Article 2</a></h3>
+            <p>
+              Lorem ipsum dolor <strong>et quasi</strong> sit amet consectetur,
+              adipisicing elit. Aspernatur magnam aut et quasi quidem
+              dignissimos aperiam, culpa asperiores eos, similique consectetur
+              eaque necessitatibus <strong>et quasi</strong> exercitationem
+              repudiandae ducimus. Corrupti, id alias.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur magnam aut et quasi quidem dignissimos aperiam, culpa
+              asperiores eos, similique consectetur eaque necessitatibus
+              reprehenderit exercitationem repudiandae ducimus.
+              <a href="article2.html">Read more > </a>
+            </p>
+          </div>
+        </section>
 
-        <div class="bg-3">
-          <h3><a href="article3.html">Article 3</a></h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-            magnam aut et quasi quidem dignissimos aperiam, culpa asperiores
-            eos, similique consectetur <strong>et quasi</strong> reprehenderit
-            exercitationem repudiandae ducimus. Corrupti, id alias.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-            magnam aut et quasi quidem dignissimos aperiam, culpa asperiores
-            eos, similique <strong>et quasi</strong> eaque necessitatibus
-            reprehenderit exercitationem repudiandae ducimus.
-            <a href="#">Corrupti, id alias</a>.
-          </p>
-        </div>
-      </article>
-    </main>
+        <section class="bg-3 p-bg-card">
+          <div class="p-bg-color">
+            <h3><a href="article3.html">Article 3</a></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur,
+              <strong>et quasi</strong> adipisicing elit. Aspernatur magnam aut
+              et quasi quidem dignissimos aperiam, culpa asperiores eos,
+              similique consectetur <strong>et quasi</strong> reprehenderit
+              exercitationem repudiandae ducimus. Corrupti, id alias.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur magnam aut et quasi quidem dignissimos aperiam, culpa
+              asperiores eos, similique <strong>et quasi</strong> eaque
+              necessitatibus reprehenderit exercitationem repudiandae ducimus.
+              <a href="article3.html">Read more > </a>
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
