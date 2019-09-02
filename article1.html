@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- <script src="./script.js"></script> -->
+
     <style>
       .hero-image {
         background: url("./images/beach-1.jpg") no-repeat center center;
@@ -13,7 +13,7 @@
         overflow: hidden;
       }
     </style>
-    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link rel="stylesheet" href="./style.css" />
     <title>article1</title>
   </head>
   <body onload="dateMod()">
@@ -67,6 +67,15 @@
             assumenda veritatis, numquam repudiandae recusandae explicabo magni
             pariatur porro error non!
           </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            libero enim fugit excepturi? Aliquam molestiae nisi at fugiat soluta
+            assumenda veritatis, numquam repudiandae recusandae explicabo magni
+            pariatur porro error non!
+          </p>
+
+          <img src="http://unsplash.it/400/402" class="align-left slide-in" />
+
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
             libero enim fugit excepturi? Aliquam molestiae nisi at fugiat soluta
@@ -207,66 +216,12 @@
             assumenda veritatis, numquam repudiandae recusandae explicabo magni
             pariatur porro error non!
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            libero enim fugit excepturi? Aliquam molestiae nisi at fugiat soluta
-            assumenda veritatis, numquam repudiandae recusandae explicabo magni
-            pariatur porro error non!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            libero enim fugit excepturi? Aliquam molestiae nisi at fugiat soluta
-            assumenda veritatis, numquam repudiandae recusandae explicabo magni
-            pariatur porro error non!
-          </p>
-          <p>
-            Sapiente libero enim fugit excepturi? Aliquam molestiae nisi at
-            fugiat soluta assumenda veritatis, numquam repudiandae recusandae
-            explicabo magni pariatur porro error non!Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Sapiente libero enim fugit excepturi?
-            Aliquam molestiae nisi at fugiat soluta assumenda veritatis, numquam
-            repudiandae recusandae explicabo magni pariatur porro error
-            non!Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sapiente libero enim fugit excepturi? Aliquam molestiae nisi at
-            fugiat soluta assumenda veritatis, numquam repudiandae recusandae
-            explicabo magni pariatur porro error non!Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Sapiente libero enim fugit excepturi?
-            Aliquam molestiae nisi at fugiat soluta assumenda veritatis, numquam
-            repudiandae recusandae explicabo magni pariatur porro error
-            non!Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sapiente libero enim fugit excepturi? Aliquam molestiae nisi at
-            fugiat soluta assumenda veritatis, numquam repudiandae recusandae
-            explicabo magni pariatur porro error non!Lorem ipsum dolor sit amet
-            explicabo magni pariatur porro error non!Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Sapiente libero enim fugit excepturi?
-            Aliquam molestiae nisi at fugiat soluta assumenda veritatis, numquam
-            repudiandae recusandae explicabo magni pariatur porro error
-            non!Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sapiente libero enim fugit excepturi? Aliquam molestiae nisi at
-            fugiat soluta assumenda veritatis, numquam repudiandae recusandae
-            explicabo magni pariatur porro error non!Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Sapiente libero enim fugit excepturi?
-            Aliquam molestiae nisi at fugiat soluta assumenda veritatis, numquam
-            repudiandae recusandae explicabo magni pariatur porro error non!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            libero enim fugit excepturi? Aliquam molestiae nisi at fugiat soluta
-            assumenda veritatis, numquam repudiandae recusandae explicabo magni
-            pariatur porro error non!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            libero enim fugit excepturi? Aliquam molestiae nisi at fugiat soluta
-            assumenda veritatis, numquam repudiandae recusandae explicabo magni
-            pariatur porro error non!
-          </p>
 
           <a href="index.html"><div class="button">RETURN HOME</div></a>
         </section>
       </article>
     </main>
-    <script>
+    <!-- <script>
       function debounce(func, wait = 20, immediate = true) {
         var timeout;
         return function() {
@@ -303,9 +258,17 @@
       }
 
       window.addEventListener("scroll", debounce(checkSlide));
-    </script>
 
-    <style>
+      function dateMod() {
+        var string = document.lastModified;
+        var x = document.getElementsByClassName("date-mod");
+        x[0].innerHTML = string;
+      }
+    </script> -->
+
+    <script src="./script.js"></script>
+
+    <!-- <style>
       html {
         box-sizing: border-box;
         background: #ffffff;
@@ -328,7 +291,7 @@
         margin-top: 0;
       }
 
-      .site-wrap {
+      site-wrap {
         max-width: 700px;
         margin: 100px auto;
         background: white;
@@ -363,6 +326,6 @@
         opacity: 1;
         transform: translateX(0%) scale(1);
       }
-    </style>
+    </style> -->
   </body>
 </html>
