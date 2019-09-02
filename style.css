@@ -10,10 +10,15 @@
 html,
 body {
   /* padding: 140px; */
+  box-sizing: border-box;
   font-size: 1.2rem;
   color: gray;
   margin: 0;
   scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 a {
@@ -101,7 +106,7 @@ h1 {
 }
 
 .slide-in {
-  opacity: 0;
+  opacity: 1;
   transition: all .5s;
 }
 
