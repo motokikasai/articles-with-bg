@@ -1,5 +1,9 @@
 # Articles list with Background images
 
+![screenshot 1](/screenshot-01.png)
+
+![screenshot 1](/screenshot-02.png)
+
 ## Create main page
 
 - [x] The main page should show a headline, number of articles and a list of articles.
