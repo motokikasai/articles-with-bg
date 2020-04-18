@@ -1,8 +1,8 @@
 # Articles list with Background images
 
-![screenshot 1](/screenshot-01.png)
+![screenshot 1](/images/screenshot-01.png)
 
-![screenshot 1](/screenshot-02.png)
+![screenshot 2](/images/screenshot-02.png)
 
 ## Create main page
 
