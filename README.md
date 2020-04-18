@@ -1,4 +1,4 @@
-# Microsite with Articles with Background & slide-in images
+# Microsite with Articles with Background & Slide-in Images
 
 ### Home
 ![screenshot 1](/images/screenshot-01.png)
