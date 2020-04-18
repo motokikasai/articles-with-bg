@@ -1,7 +1,9 @@
 # Articles list with Background images
 
+### Home
 ![screenshot 1](/images/screenshot-01.png)
 
+### Page
 ![screenshot 2](/images/screenshot-02.png)
 
 ## Create main page
